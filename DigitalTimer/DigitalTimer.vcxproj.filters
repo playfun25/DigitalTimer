@@ -14,4 +14,48 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tracer.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\SFML-2.5.1 - x32\bin\openal32.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-audio-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-audio-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-system-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-window-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-network-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-network-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-graphics-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-graphics-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-window-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
 </Project>
