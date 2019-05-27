@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Ressource
+namespace Resource
 {
 	enum Texture
 	{

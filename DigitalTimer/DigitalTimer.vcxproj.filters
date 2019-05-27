@@ -13,12 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Resource">
+      <UniqueIdentifier>{a350f06f-0347-4ebc-b8c9-64413e72293a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\States">
+      <UniqueIdentifier>{fdf1ac2f-7496-4f07-af26-487f44618242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Resource">
+      <UniqueIdentifier>{a12fe434-be2e-417b-b587-275e01ab7840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\States">
+      <UniqueIdentifier>{80b6dc30-257b-4f99-82a8-261bb068dc8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="RessourceManager.cpp">
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Fichiers sources\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Fichiers sources\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkManager.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,29 +50,24 @@
     <ClInclude Include="Tracer.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="RessourceManager.h">
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Fichiers d%27en-tête\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Fichiers d%27en-tête\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Fichiers d%27en-tête\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Ressource.h">
+    <ClInclude Include="NetworkManager.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\SFML-2.5.1 - x32\bin\openal32.dll">
-      <Filter>Fichiers de ressources</Filter>
-    </None>
-    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-audio-2.dll">
-      <Filter>Fichiers de ressources</Filter>
-    </None>
-    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-audio-d-2.dll">
-      <Filter>Fichiers de ressources</Filter>
-    </None>
-    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-system-d-2.dll">
-      <Filter>Fichiers de ressources</Filter>
-    </None>
-    <None Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-window-d-2.dll">
-      <Filter>Fichiers de ressources</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-network-2.dll">
@@ -64,6 +83,21 @@
       <Filter>Fichiers de ressources</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-window-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\openal32.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-audio-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-audio-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-system-d-2.dll">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\..\SFML-2.5.1 - x32\bin\sfml-window-d-2.dll">
       <Filter>Fichiers de ressources</Filter>
     </CopyFileToFolders>
   </ItemGroup>

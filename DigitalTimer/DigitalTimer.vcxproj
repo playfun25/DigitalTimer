@@ -131,12 +131,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="RessourceManager.cpp" />
+    <ClCompile Include="NetworkManager.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ressource.h" />
-    <ClInclude Include="RessourceManager.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="NetworkManager.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateMachine.h" />
     <ClInclude Include="Tracer.h" />
   </ItemGroup>
   <ItemGroup>

@@ -13,13 +13,14 @@
 #include <iostream>
 
 #include "Tracer.h"
+#include "Game.h"
 
 #define ENABLE_TRACER
 
 int main()
 {
 	try {
-		sf::CircleShape circle;
+		Game(sf::VideoMode().getDesktopMode().width, sf::VideoMode().getDesktopMode().height, "DigitalTimer");
 	}
 	catch (std::exception e) {
 		TRACE("main : ", e.what());

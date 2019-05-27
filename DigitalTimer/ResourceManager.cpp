@@ -1,12 +1,12 @@
-#include "RessourceManager.h"
+#include "ResourceManager.h"
 #include "Tracer.h"
 
 
-RessourceManager::RessourceManager()
+ResourceManager::ResourceManager()
 {
 }
 
-void RessourceManager::loadTexture(Ressource::Texture textureName)
+void ResourceManager::loadTexture(Resource::Texture textureName)
 {
 	sf::Texture texture;
 	std::string path = "Media/Textures/" + textureName;
@@ -14,7 +14,7 @@ void RessourceManager::loadTexture(Ressource::Texture textureName)
 		TRACE("RessourceManager::loadTexture : ", textureName, "not loaded");
 }
 
-void RessourceManager::loadFont(Ressource::Font fontName)
+void ResourceManager::loadFont(Resource::Font fontName)
 {
 	sf::Font font;
 	std::string path = "Media/Fonts/" + fontName;
@@ -22,6 +22,6 @@ void RessourceManager::loadFont(Ressource::Font fontName)
 		TRACE("RessourceManager::loadFont : ", fontName, "not loaded");
 }
 
-RessourceManager::~RessourceManager()
+ResourceManager::~ResourceManager()
 {
 }
