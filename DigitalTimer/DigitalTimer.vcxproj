@@ -132,8 +132,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RessourceManager.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ressource.h" />
+    <ClInclude Include="RessourceManager.h" />
     <ClInclude Include="Tracer.h" />
   </ItemGroup>
   <ItemGroup>
