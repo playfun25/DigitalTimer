@@ -4,8 +4,10 @@ namespace Resource
 {
 	enum Texture
 	{
-		Agumon,
-		Gabumon
+		MainMenuBackground,
+		MainMenuPlayButton,
+		MainMenuHostButton,
+		MainMenuJoinButton
 	};
 
 	enum Font

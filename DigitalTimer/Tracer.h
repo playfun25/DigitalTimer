@@ -1,4 +1,3 @@
-#ifdef ENABLE_TRACE
 #  ifdef _MSC_VER
 #    include <windows.h>
 #    include <sstream>
@@ -11,6 +10,3 @@
 #    include <iostream>
 #    define TRACE(x)  std::clog << (x)
 #  endif     
-#else
-#  define TRACE(x)
-#endif
